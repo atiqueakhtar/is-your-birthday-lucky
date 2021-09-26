@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #1250b5;
+  --background-color: #bad1f7;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 650px;
+  background-color: var(--background-color);
+  margin: auto;
+  height: 100vh;
+  padding: 1.5rem;
+}
+.header {
+  color: var(--primary-color);
+}
+.input-container {
+  margin: 2rem;
+}
+label {
+  display: block;
+  margin: 1.5rem;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+input {
+  display: block;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+button {
+  display: block;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #809ed1;
+  box-shadow: 2px 2px gray;
+}
+.output {
+  color: var(--primary-color);
+}
